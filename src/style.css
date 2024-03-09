@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Inter", sans-serif;
+}
+/* Stili per h1 */
+h1 {
+  @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl;
+}
+
+/* Stili per h2 */
+h2 {
+  @apply text-3xl md:text-4xl lg:text-5xl xl:text-6xl;
+}
+
+/* Stili per h3 */
+h3 {
+  @apply text-2xl md:text-3xl lg:text-4xl xl:text-5xl;
+}
+
+/* Stili per h4 */
+h4 {
+  @apply text-xl md:text-2xl lg:text-3xl xl:text-4xl;
+}
+
+/* Stili per h5 */
+h5 {
+  @apply text-lg md:text-xl lg:text-2xl xl:text-3xl;
+}
+
+/* Stili per h6 */
+h6 {
+  @apply text-base md:text-lg lg:text-xl xl:text-2xl;
+}
+.custom{
+  background: rgb(16,19,26);
+  background: linear-gradient(90deg, rgba(16,19,26,1) 0%, rgba(16,33,44,1) 47%);
+}
+.btn {
+  @apply bg-primary-darker text-white font-bold py-2 px-6 rounded-full transition-all text-sm md:text-base;
+}
+
+.btn:hover {
+  @apply bg-primary;
+}
+.btn-reverse{
+  @apply bg-white text-primary-darker font-bold py-2 px-6 rounded-full transition-all text-sm md:text-base;
+}
+.btn-reverse:hover{
+  @apply bg-[#c6c6c6]
+}
+.card{
+  @apply flex flex-col items-center gap-4 justify-between p-6 border border-primary-darker;
+  background: rgb(16,41,54);
+  background: radial-gradient(circle, rgba(16,41,54,1) 0%, rgba(31,69,85,1) 100%);
+}
