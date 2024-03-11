@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto flex flex-col items-center justify-center px-4 py-12 gap-y-6">
+    <div class="container mx-auto flex flex-col items-center justify-center px-4 py-12 gap-y-6" data-aos="fade-up">
         <h3 class="font-bold py-6">My <span class="text-primary">Latest</span> Projects</h3>
 
         <div class="projects">
@@ -30,10 +30,10 @@
                 </swiper-slide>
 
                 <swiper-slide class="project border rounded-lg shadow-xl">
-                  <a href="https://test.theailati.com/" target="_blank" class="w-full h-full">
-                    <img class="rounded-lg" src="../assets/img/ailati.webp" alt="ailati image" width="100%" height="100%">
+                  <a href="https://arredocasa.fix.one/" target="_blank" class="w-full h-full">
+                    <img class="rounded-lg" src="../assets/img/arredo.webp" alt="arredo da casa image" width="100%" height="100%">
                     <a target="_blank" class="absolute bottom-2 left-2 font-bold z-10">
-                      <h5>The Ailati Collection</h5>
+                      <h5>Arredo da casa</h5>
                     </a>
                     <div class="overlay"></div>
                   </a>

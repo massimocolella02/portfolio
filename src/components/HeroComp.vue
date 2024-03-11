@@ -1,7 +1,7 @@
 <template>
     <div class="custom px-4 py-8 h-screen flex items-center">
         <div class="container mx-auto flex items-center">
-            <div class="font-bold lg:w-2/3">
+            <div class="font-bold lg:w-2/3" data-aos="zoom-in-up" data-aos-duration="2000">
                 <h2>FULL STACK <span class="text-primary">DEVELOPER</span></h2>
                 <h1 class="-mt-2">MASSIMO COLELLA</h1>
                 <p class="font-normal leading-4 mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi fugit. Ipsa qui dolore inventore repellat totam provident neque cum, architecto velit, sunt blanditiis, a molestias nostrum voluptatibus. Dolores, excepturi.</p>

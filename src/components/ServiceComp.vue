@@ -3,28 +3,28 @@
         <div class="container mx-auto flex flex-col lg:flex-row items-center justify-center">
             <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-4 lg:gap-x-8">
 
-                <div class="flex flex-col gap-y-8 lg:-mt-28">
+                <div class="flex flex-col gap-y-8 lg:-mt-28" data-aos="fade-up">
                     <h3 class="font-bold text-center lg:text-start">My <span class="text-primary">Services</span></h3>
                     <p class="text-center lg:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorem consequuntur quaerat ullam inventore, earum est perferendis culpa aliquam fugiat impedit dicta dolorum saepe non quisquam esse nobis nulla recusandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus asperiores quas repudiandae, iste eaque unde reprehenderit harum facere autem vel illo odit doloribus cupiditate dolorem nemo omnis voluptas eos maiores.</p>
                 </div>
 
                 <div class="grid-cols-2 gap-6 hidden md:grid">
-                    <div class="card shadow-2xl rounded-xl">
+                    <div class="card shadow-2xl rounded-xl" data-aos="flip-left" data-aos-duration="1000">
                         <h6 class="font-bold leading-6">Frontend Development</h6>
                         <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, mollitia non, deserunt magnam nam animi, temporibus libero saepe culpa nihil doloribus aliquam accusamus magni deleniti fugiat maxime optio earum delectus!</p>
                     </div>
 
-                    <div class="card shadow-2xl rounded-xl">
+                    <div class="card shadow-2xl rounded-xl" data-aos="flip-right" data-aos-duration="1000">
                         <h6 class="font-bold leading-6">Backend Development</h6>
                         <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, mollitia non, deserunt magnam nam animi, temporibus libero saepe culpa nihil doloribus aliquam accusamus magni deleniti fugiat maxime optio earum delectus!</p>
                     </div>
 
-                    <div class="card shadow-2xl rounded-xl">
+                    <div class="card shadow-2xl rounded-xl" data-aos="flip-left" data-aos-duration="1000">
                         <h6 class="font-bold leading-6">Headless Development</h6>
                         <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, mollitia non, deserunt magnam nam animi, temporibus libero saepe culpa nihil doloribus aliquam accusamus magni deleniti fugiat maxime optio earum delectus!</p>
                     </div>
 
-                    <div class="card shadow-2xl rounded-xl">
+                    <div class="card shadow-2xl rounded-xl" data-aos="flip-right" data-aos-duration="1000">
                         <h6 class="font-bold leading-6">Magento Development</h6>
                         <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, mollitia non, deserunt magnam nam animi, temporibus libero saepe culpa nihil doloribus aliquam accusamus magni deleniti fugiat maxime optio earum delectus!</p>
                     </div>
