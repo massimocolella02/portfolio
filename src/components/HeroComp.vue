@@ -4,7 +4,7 @@
             <div class="font-bold lg:w-2/3" data-aos="zoom-in-up" data-aos-duration="2000">
                 <h2>FULL STACK <span class="text-primary">DEVELOPER</span></h2>
                 <h1 class="-mt-2">MASSIMO COLELLA</h1>
-                <p class="font-normal leading-4 mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi fugit. Ipsa qui dolore inventore repellat totam provident neque cum, architecto velit, sunt blanditiis, a molestias nostrum voluptatibus. Dolores, excepturi.</p>
+                <p class="font-normal leading-4 mt-6">I am a Full Stack Web Developer with a strong passion for innovation. My career is driven by the desire to explore and create web solutions that combine excellent performance and intuitive design. Every project for me is an opportunity to broaden my horizons, paving the way for new technologies and methods. In every challenge, I see an opportunity to grow and contribute to the future of the web.</p>
 
                 <div class="flex items-center gap-4">
                     <a href="#contactme" class="inline-block btn mt-6">Contact me</a>

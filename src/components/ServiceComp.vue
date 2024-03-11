@@ -5,28 +5,32 @@
 
                 <div class="flex flex-col gap-y-8 lg:-mt-28" data-aos="fade-up">
                     <h3 class="font-bold text-center lg:text-start">My <span class="text-primary">Services</span></h3>
-                    <p class="text-center lg:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorem consequuntur quaerat ullam inventore, earum est perferendis culpa aliquam fugiat impedit dicta dolorum saepe non quisquam esse nobis nulla recusandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus asperiores quas repudiandae, iste eaque unde reprehenderit harum facere autem vel illo odit doloribus cupiditate dolorem nemo omnis voluptas eos maiores.</p>
+                    <p class="text-center lg:text-start">I am a Full Stack Web Developer with a specific focus on Magento and the development of innovative headless e-commerce solutions. My expertise spans both front-end and back-end, allowing me to create e-commerce platforms that not only excel in performance and functionality, but are also intuitive and tailored to my clients' needs. My passion for technological innovation constantly drives me to stay updated on the latest industry trends and tools, ensuring each project exceeds expectations and drives commercial success.</p>
                 </div>
 
                 <div class="grid-cols-2 gap-6 hidden md:grid">
                     <div class="card shadow-2xl rounded-xl" data-aos="flip-left" data-aos-duration="1000">
-                        <h6 class="font-bold leading-6">Frontend Development</h6>
-                        <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, mollitia non, deserunt magnam nam animi, temporibus libero saepe culpa nihil doloribus aliquam accusamus magni deleniti fugiat maxime optio earum delectus!</p>
+                        <img src="../assets/svg/device-desktop.svg" alt="frontend" width="40">
+                        <h6 class="font-bold leading-6 text-center">Frontend Development</h6>
+                        <p class="text-sm">I am dedicated to developing front ends that capture attention, combining aesthetics and usability to create memorable and engaging user experiences.</p>
                     </div>
 
                     <div class="card shadow-2xl rounded-xl" data-aos="flip-right" data-aos-duration="1000">
-                        <h6 class="font-bold leading-6">Backend Development</h6>
-                        <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, mollitia non, deserunt magnam nam animi, temporibus libero saepe culpa nihil doloribus aliquam accusamus magni deleniti fugiat maxime optio earum delectus!</p>
+                        <img src="../assets/svg/database.svg" alt="backend" width="40">
+                        <h6 class="font-bold leading-6 text-center">Backend Development</h6>
+                        <p class="text-sm">Specialized in backend development, I ensure solid and high-performance foundations for web applications, guaranteeing long-term reliability and scalability.</p>
                     </div>
 
                     <div class="card shadow-2xl rounded-xl" data-aos="flip-left" data-aos-duration="1000">
-                        <h6 class="font-bold leading-6">Headless Development</h6>
-                        <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, mollitia non, deserunt magnam nam animi, temporibus libero saepe culpa nihil doloribus aliquam accusamus magni deleniti fugiat maxime optio earum delectus!</p>
+                        <img src="../assets/svg/headless.svg" alt="headless" width="40">
+                        <h6 class="font-bold leading-6 text-center">Headless Development</h6>
+                        <p class="text-sm">Headless separates the frontend from the backend, giving developers flexibility in creating user experiences. This approach enables the use of modern frontend technologies to create rich, customized interfaces, while maintaining a robust and scalable backend.</p>
                     </div>
 
                     <div class="card shadow-2xl rounded-xl" data-aos="flip-right" data-aos-duration="1000">
-                        <h6 class="font-bold leading-6">Magento Development</h6>
-                        <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, mollitia non, deserunt magnam nam animi, temporibus libero saepe culpa nihil doloribus aliquam accusamus magni deleniti fugiat maxime optio earum delectus!</p>
+                        <img src="../assets/svg/magento2.svg" alt="magento" width="40">
+                        <h6 class="font-bold leading-6 text-center">Magento Development</h6>
+                        <p class="text-sm">Magento offers an advanced open-source e-commerce platform featuring extreme customization, scalability, and a wide range of features. Ideal for any size of business, it allows you to create unique online shopping experiences, promoting growth and innovation.</p>
                     </div>
                 </div>
 
