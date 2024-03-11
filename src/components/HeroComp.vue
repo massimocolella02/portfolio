@@ -8,7 +8,7 @@
 
                 <div class="flex items-center gap-4">
                     <a href="#contactme" class="inline-block btn mt-6">Contact me</a>
-                    <a href="" class="inline-block btn-reverse mt-6">Download CV</a>
+                    <a href="/cv/cv-massimo-colella.pdf" download="cv-massimo-colella.pdf" class="inline-block btn-reverse mt-6">Download CV</a>
                 </div>
             </div>
         </div>
