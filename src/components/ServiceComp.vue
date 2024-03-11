@@ -89,38 +89,29 @@
     </div>
     <div class="h-[10vh] custom">
 
-        <div class="scroller" data-speed="fast">
-            <ul class="tag-list scroller__inner">
-                <li>
-                    <img src="../assets/svg/html5.svg" alt="html5"/>
-                </li>
-                <li>
-                    <img src="../assets/svg/css3.svg" alt="css3"/>
-                </li>
-                <li>
-                    <img src="../assets/svg/javascript.svg" alt="javascript"/>
-                </li>
-                <li>
-                    <img src="../assets/svg/vue-solid.svg" alt="vue-solid"/>
-                </li>
-                <li>
-                    <img src="../assets/svg/nuxtdotjs.svg" alt="nuxtdotjs"/>
-                </li>
-                <li>
-                    <img src="../assets/svg/graphql.svg" alt="graphql"/>
-                </li>
-                <li>
-                    <img src="../assets/svg/php.svg" alt="php"/>
-                </li>
-                <li>
-                    <img src="../assets/svg/laravel.svg" alt="laravel"/>
-                </li>
-                <li>
-                    <img src="../assets/svg/wordpress.svg" alt="wordpress"/>
-                </li>
-                <li>
-                    <img src="../assets/svg/magento.svg" alt="magento"/>
-                </li>
+        <div class="scroller">
+            <ul class="tag-list photobanner">
+                <img class="first" src="../assets/svg/html5.svg" alt="html5"/>
+                <img src="../assets/svg/css3.svg" alt="css3"/>
+                <img src="../assets/svg/javascript.svg" alt="javascript"/>
+                <img src="../assets/svg/vue-solid.svg" alt="vue-solid"/>
+                <img src="../assets/svg/nuxtdotjs.svg" alt="nuxtdotjs"/>
+                <img src="../assets/svg/graphql.svg" alt="graphql"/>
+                <img src="../assets/svg/php.svg" alt="php"/>
+                <img src="../assets/svg/laravel.svg" alt="laravel"/>
+                <img src="../assets/svg/wordpress.svg" alt="wordpress"/>
+                <img src="../assets/svg/magento.svg" alt="magento"/>
+
+                <img src="../assets/svg/html5.svg" alt="html5"/>
+                <img src="../assets/svg/css3.svg" alt="css3"/>
+                <img src="../assets/svg/javascript.svg" alt="javascript"/>
+                <img src="../assets/svg/vue-solid.svg" alt="vue-solid"/>
+                <img src="../assets/svg/nuxtdotjs.svg" alt="nuxtdotjs"/>
+                <img src="../assets/svg/graphql.svg" alt="graphql"/>
+                <img src="../assets/svg/php.svg" alt="php"/>
+                <img src="../assets/svg/laravel.svg" alt="laravel"/>
+                <img src="../assets/svg/wordpress.svg" alt="wordpress"/>
+                <img src="../assets/svg/magento.svg" alt="magento"/>
             </ul>
         </div>
     </div>
@@ -143,87 +134,42 @@
         modules: [Autoplay],
       };
     },
-    mounted() {
-        this.scroll();
-    },
-    methods: {
-        scroll() {
-            const scrollers = document.querySelectorAll(".scroller");
-
-            // If a user hasn't opted in for recuded motion, then we add the animation
-            if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-            addAnimation();
-            }
-
-            function addAnimation() {
-            scrollers.forEach((scroller) => {
-                // add data-animated="true" to every `.scroller` on the page
-                scroller.setAttribute("data-animated", true);
-
-                // Make an array from the elements within `.scroller-inner`
-                const scrollerInner = scroller.querySelector(".scroller__inner");
-                const scrollerContent = Array.from(scrollerInner.children);
-
-                // For each item in the array, clone it
-                // add aria-hidden to it
-                // add it into the `.scroller-inner`
-                scrollerContent.forEach((item) => {
-                const duplicatedItem = item.cloneNode(true);
-                duplicatedItem.setAttribute("aria-hidden", true);
-                scrollerInner.appendChild(duplicatedItem);
-                });
-            });
-            }
-
-        }
-    },
   };
 </script>
 
 <style scoped>
-.scroller__inner {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding-block: 1rem;
-}
-.scroller[data-animated="true"] {
-  overflow: hidden;
-  -webkit-mask: linear-gradient(
-    90deg,
-    transparent,
-    white 20%,
-    white 80%,
-    transparent
-  );
-  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
-}
-.scroller[data-animated="true"] .scroller__inner {
-  width: max-content;
-  flex-wrap: nowrap;
-  animation: scroll var(--_animation-duration, 40s)
-    var(--_animation-direction, forwards) linear infinite;
-}
-.scroller[data-direction="right"] {
-  --_animation-direction: reverse;
+/* Photo Banner */
+.scroller {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
 }
 
-.scroller[data-direction="left"] {
-  --_animation-direction: forwards;
-}
-.scroller[data-speed="fast"] {
-  --_animation-duration: 20s;
+.photobanner {
+    height: 100%;
+    width: 3550px;
+    font-size: 0;
+    display: flex;
+    align-items: center;
 }
 
-.scroller[data-speed="slow"] {
-  --_animation-duration: 60s;
+.photobanner img {
+	margin-bottom: 10px;
+	margin-right: 5px;
+    height: 70px;
+	width: 180px;
 }
-@keyframes scroll {
-  to {
-    transform: translate(calc(-50% - 0.5rem));
-  }
+
+.first {
+    -webkit-animation: bannermove 30s linear infinite;
+       -moz-animation: bannermove 30s linear infinite;
+        -ms-animation: bannermove 30s linear infinite;
+         -o-animation: bannermove 30s linear infinite;
+            animation: bannermove 30s linear infinite;
 }
-.tag-list img{
-    max-width: 60px;
+ 
+@keyframes bannermove {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
 }
 </style>

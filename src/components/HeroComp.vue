@@ -7,7 +7,7 @@
                 <p class="font-normal leading-4 mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sequi fugit. Ipsa qui dolore inventore repellat totam provident neque cum, architecto velit, sunt blanditiis, a molestias nostrum voluptatibus. Dolores, excepturi.</p>
 
                 <div class="flex items-center gap-4">
-                    <a href="" class="inline-block btn mt-6">Contact me</a>
+                    <a href="#contactme" class="inline-block btn mt-6">Contact me</a>
                     <a href="" class="inline-block btn-reverse mt-6">Download CV</a>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 <template>
-    <div class="custom" data-aos="fade-up">
-        <div class="container mx-auto py-12">
+    <div class="custom" id="contactme">
+        <div class="container mx-auto py-12" data-aos="fade-in">
             <h3 class="text-center font-bold">Contact <span class="text-primary">Me</span> On</h3>
             <div class="flex flex-col items-center justify-center mt-8">
                 <a href="mailto:massimo-colella@outlook.it" class="flex flex-col items-center justify-center">
@@ -25,5 +25,5 @@ export default {
 }
 </script>
 <style>
-    
+
 </style>
