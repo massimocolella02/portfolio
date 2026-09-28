@@ -37,7 +37,7 @@ I am a **Penetration Tester / Web Application Security Specialist** with a solid
 ## 📬 Contact & Links
 
 - **LinkedIn:** [linkedin.com/in/massimo-colella](https://www.linkedin.com/in/massimo-colella)
-- **GitHub:** [github.com/tuousername](https://github.com/massimocolella02)
+- **GitHub:** [github.com/massimocolella02](https://github.com/massimocolella02)
 - **Portfolio:** [Live Site](https://massimocolella.dev/)
 
 ---
